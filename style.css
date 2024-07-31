@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+a:hover {
+    color: #3882f6;
+    font-size: 18px;
+
+}
+
+li {
+    list-style: none;
+}
+
+/* Hero section start */
+
+.hero {
+    background-color: #1F2937;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 200px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.nav h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+} 
+
+
+.list-items {
+    display: flex;
+    gap: 38px;
+}
+
+.container {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 200px;
+}
+
+.left-container {    
+    width: 400px;
+}
+
+.left-container h1 {
+    font-size: 48px;
+    font-weight: 900;  
+    color: #F9FAF8;
+}
+
+.left-container p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-container button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    padding: 4px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.right-container {
+    width: 500px;
+    height: 220px;
+    background-color: #c7c7c7;
+    display: flex;
+    align-items: center;
+}
+
+.right-container p {
+    margin-inline: auto;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* --------Hero section end --------*/
+
+
+/* Information section start */
+.info-section {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.info-section h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding-bottom: 15px;
+}
+
+.info {
+    display: flex;
+    gap: 30px;
+}
+
+.info-block {
+    width: 150px;
+}
+
+.info-block p {
+    color: #1f2937;
+    font-size: 18px;
+}
+
+.block {
+    width: 150px;
+    height: 150px;
+    border: #3882f6 2px solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Quote section start */
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.quote {
+    margin-inline: auto;
+    width: 690px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    padding-bottom: 8px;
+}
+
+.quote strong {
+   margin-left: 500px;
+   font-size: 18px;
+   font-weight: 900;
+   color: #1f2937;
+}
+
+/* Club section start*/
+
+.club-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.club {
+    margin-inline: auto;
+    width: 700px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.club p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+.club small {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+button {
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 4px 10px;
+    color: #F9FAF8;
+}
+/* --------------Club section end--------------- */
+
+
+
+/* -------Footer start------- */
+footer {
+    background-color: #1F2937;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+footer small {
+    margin-inline: auto;
+    color: #e5e7eb;
+    font-size: 18px;
+}
